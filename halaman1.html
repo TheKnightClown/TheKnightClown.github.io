@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link ke Bootstrap untuk Navbar dan Carousel -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel / Jumbotron -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/1200x500?text=Gambar+Carousel+1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x500?text=Gambar+Carousel+2" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x500?text=Gambar+Carousel+3" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Section Info -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- Kolom Kiri (Gambar) -->
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="Info Image">
+            </div>
+            <!-- Kolom Kanan (Text) -->
+            <div class="col-md-6">
+                <h2>Informasi Tentang Kami</h2>
+                <p>
+                    Kami adalah sebuah perusahaan yang menyediakan berbagai layanan teknologi terbaru untuk membantu mengembangkan bisnis Anda. Kami berkomitmen untuk memberikan solusi terbaik bagi setiap pelanggan kami.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Card -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Card Section</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Judul Card 1</h5>
+                        <p class="card-text">Deskripsi singkat tentang card pertama. Card ini berisi informasi menarik.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Judul Card 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang card kedua. Card ini berisi informasi menarik.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Judul Card 3</h5>
+                        <p class="card-text">Deskripsi singkat tentang card ketiga. Card ini berisi informasi menarik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Tabel Informasi</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Telepon</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>johndoe@example.com</td>
+                    <td>(123) 456-7890</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>janesmith@example.com</td>
+                    <td>(987) 654-3210</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mike Johnson</td>
+                    <td>mikejohnson@example.com</td>
+                    <td>(555) 123-4567</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Script untuk Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
